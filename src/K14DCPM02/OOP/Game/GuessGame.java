@@ -38,9 +38,11 @@ public class GuessGame {
 
             if (p1_guess == targetNumber) {
                 p1_isRight = true;
-            } else if (p2_guess == targetNumber) {
+            } 
+            if (p2_guess == targetNumber) {
                 p2_isRight = true;
-            } else if (p3_guess == targetNumber) {
+            }
+            if (p3_guess == targetNumber) {
                 p3_isRight = true;
             }
 
